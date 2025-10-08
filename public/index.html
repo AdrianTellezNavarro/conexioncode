@@ -33,15 +33,15 @@
   
   <!-- Formulario para actualizar usuario -->
   <form action="/actualizarUsuario" method="post" class="mb-4">
-    <div class="mb-3">
-      <input type="text" name="id" class="form-control" placeholder="ID del Usuario a actualizar" required />
-    </div>
-    <div class="mb-3">
-      <input type="text" name="nuevoNombre" class="form-control" placeholder="Nuevo nombre de Usuario" required />
-    </div>
-    <input type="submit" value="Actualizar Usuario" class="btn btn-primary" />
-  </form>
-
+  <div class="mb-3">
+    <input type="text" name="nombre" class="form-control" placeholder="Nombre actual del usuario" required />
+  </div>
+  <div class="mb-3">
+    <input type="text" name="nuevoNombre" class="form-control" placeholder="Nuevo nombre de usuario" required />
+  </div>
+  <input type="submit" value="Actualizar Usuario" class="btn btn-primary" />
+</form>
+  
   <h2 class="mb-4"> Borrar Usuario </h2>
   
   <!-- Formulario para borrar usuario -->
